@@ -1,0 +1,9 @@
+# *
+User-agent: *
+Allow: /
+
+# Host
+Host: https://audiophilewebshop.netlify.app/
+
+# Sitemaps
+Sitemap: https://audiophilewebshop.netlify.app/sitemap.xml
