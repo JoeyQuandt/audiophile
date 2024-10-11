@@ -1,6 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation";
+import Link from "next/link";
 
 export type NavbarProps = {
   links: {
@@ -24,7 +25,7 @@ export default function NavItems({ links, ...props }: NavbarProps) {
               pathname === item.href ? "text-theme-orange" : "text-theme-white"
             }`}
           >
-            <a href={item.href}>{item.name}</a>
+            <Link href={item.href}>{item.name}</Link>
           </li>
         );
       })}
