@@ -7,20 +7,6 @@ export const metadata: Metadata = {
   title: "Home | Audiophile",
   description:
     "Experience natural, lifelike audio and exceptional build quality made for the passionate music enthusiast.",
-  openGraph: {
-    title: "Home | Audiophile",
-    images: [
-      {
-        url: "/default-seo-image",
-      },
-    ],
-  },
-  twitter: {
-    card: "summary_large_image",
-    title: "Home | Audiophile",
-    description: "Agent",
-    images: ["/default-seo-image"],
-  },
   icons: {
     icon: "/favicons/favicon.ico",
   },
@@ -35,18 +21,22 @@ export default function RootLayout({
     {
       name: "Home",
       href: "/",
+      id: 1,
     },
     {
       name: "Headphones",
       href: "/headphones",
+      id: 2,
     },
     {
       name: "Speakers",
       href: "/speakers",
+      id: 3,
     },
     {
       name: "Earphones",
       href: "/earphones",
+      id: 4,
     },
   ];
   return (
@@ -67,6 +57,13 @@ export default function RootLayout({
         />
         <meta name="apple-mobile-web-app-title" content="audiophile" />
         <link rel="manifest" href="/favicons/site.webmanifest" />
+        <meta property="og:title" content="Home | Audiophile" />
+        <meta property="og:type" content="image" />
+        <meta property="og:image" content="/default-seo-image.jpg" />
+
+        <meta name="twitter:image" content="/default-seo-image.jpg" />
+        <meta name="twitter:title" content="Home | Audiophile" />
+        <meta name="twitter:description" content="Agent" />
       </head>
       <body>
         <Navbar links={links} />

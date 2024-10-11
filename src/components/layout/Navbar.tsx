@@ -2,14 +2,7 @@
 
 import { Logo, ShoppingCard, Hamburger } from "../icons";
 import NavItems from "./NavItems";
-
-export type NavbarProps = {
-  links: {
-    name: string;
-    href: string;
-  }[];
-  className?: string;
-};
+import { NavbarProps } from "./NavItems";
 
 export default function Navbar({ links }: NavbarProps) {
   return (

@@ -12,7 +12,7 @@ export default function NotFound() {
       <div className="text-center">
         <h1 className="mb-8 md:text-9xl">404</h1>
         <p className="mb-10">
-          The page you're trying to visit doesn't exist (anymore)
+          {`The page you're trying to visit doesn't exist anymore`}
         </p>
         <Button asChild>
           <Link href="/">Return to the homepage</Link>

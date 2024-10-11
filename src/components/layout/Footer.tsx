@@ -1,4 +1,4 @@
-import { NavbarProps } from "./Navbar";
+import { NavbarProps } from "./NavItems";
 
 import NavItems from "./NavItems";
 import { Logo, Facebook, Twitter, Instagram } from "../icons";
@@ -17,10 +17,10 @@ export default function Footer({ links }: NavbarProps) {
         </div>
         <div className="flex justify-between">
           <p className="text-theme-white opacity-50 max-w-[540px] lg:mt-9 max-lg:mt-8 max-lg:mb-20 lg:mb-14 max-sm:text-center max-sm:mb-12">
-            Audiophile is an all in one stop to fulfill your audio needs. We're
+            {`Audiophile is an all in one stop to fulfill your audio needs. We're
             a small team of music lovers and sound specialists who are devoted
             to helping you get the most out of personal audio. Come and visit
-            our demo facility - we’re open 7 days a week.
+            our demo facility - we’re open 7 days a week.`}
           </p>
           <ul className="gap-4 mt-auto max-lg:hidden lg:flex">
             <li>
