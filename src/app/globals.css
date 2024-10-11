@@ -2,6 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&display=swap");
+
 body {
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -69,10 +71,55 @@ body {
 }
 
 @layer base {
-  * {
-    @apply border-border;
-  }
   body {
-    @apply bg-background text-foreground;
+    @apply bg-theme-white font-Manrope;
+  }
+  /* #region  /**=========== Typography =========== */
+  h1,
+  .h1 {
+    @apply text-[3.5rem] font-bold uppercase leading-[58px] tracking-[2px];
+  }
+
+  h2,
+  .h2 {
+    @apply text-[2.5rem]  font-bold uppercase leading-[44px] tracking-[1.5px];
+  }
+
+  h3,
+  .h3 {
+    @apply text-[2rem] uppercase leading-[36px] tracking-[1.15px];
+  }
+  h4,
+  .h4 {
+    @apply text-[1.75rem] font-bold uppercase leading-[38px] tracking-[2px];
+  }
+
+  h5,
+  .h5 {
+    @apply text-[1.5rem] font-bold uppercase leading-[33px] tracking-[1.7px];
+  }
+
+  h6,
+  .h6 {
+    @apply text-[1.125rem] font-bold uppercase leading-[24px] tracking-[1.3px];
+  }
+
+  body,
+  .p {
+    @apply text-base leading-[25px] font-medium;
+  }
+  .subtitle {
+    @apply font-bold leading-[25px] text-sm tracking-[0.929px] text-theme-orange uppercase;
+  }
+  .overline {
+    @apply uppercase leading-[19px] tracking-[10px] text-theme-orange;
+  }
+
+  .navItem {
+    @apply font-bold leading-[25px]  tracking-[2px] uppercase text-sm hover:text-theme-orange transition ease-in duration-200;
+  }
+  /* #endregion  /**======== Typography =========== */
+  .layout {
+    @apply xl:max-w-[1110px] mx-auto max-xl:px-10 px-6;
   }
 }
