@@ -1,10 +1,9 @@
-import { Logo } from "@/components/icons";
+import Hero from "@/components/Hero";
 
 export default function Home() {
   return (
-    <section className="layout">
-      <Logo className="text-theme-orange" />
-      <h1>hello world</h1>
-    </section>
+    <>
+      <Hero />
+    </>
   );
 }

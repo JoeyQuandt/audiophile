@@ -21,7 +21,7 @@ const config: Config = {
           lightWhite: "#FAFAFA",
           lightOrange: "#fbaf85",
           white: "#FFFFFF",
-          black: "#000000",
+          black: "#191919",
         },
         /* #region  /**=========== Custom Colors =========== */
         background: "hsl(var(--background))",

@@ -122,4 +122,8 @@ body {
   .layout {
     @apply xl:max-w-[1110px] mx-auto max-xl:px-10 px-6;
   }
+
+  .image-wrapper {
+    @apply relative w-full max-w-[708px] aspect-[70/45];
+  }
 }

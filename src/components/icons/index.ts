@@ -4,3 +4,4 @@ export { default as Facebook } from "./facebook.svg";
 export { default as Twitter } from "./twitter.svg";
 export { default as Instagram } from "./instagram.svg";
 export { default as Hamburger } from "./hamburger.svg";
+export { default as BackgroundBanner } from "./svg_banner.svg";
