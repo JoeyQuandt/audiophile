@@ -1,7 +1,6 @@
 import { Button } from "./ui/button";
 import { Separator } from "./ui/separator";
 import Link from "next/link";
-import Image from "next/image";
 
 export default function Hero() {
   return (

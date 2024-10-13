@@ -11,6 +11,8 @@ const buttonVariants = cva(
       variant: {
         default:
           "bg-theme-orange text-primary-foreground hover:bg-theme-lightOrange px-8 py-4 uppercase",
+        secondary:
+          "bg-black text-theme-white text-primary-foreground hover:bg-theme-blackHover px-8 py-4 uppercase",
         outline:
           "px-8 py-4 uppercase border border-black hover:text-theme-white hover:bg-black",
         link: "bg-transparent uppercase font-bold opacity-50 text-sm hover:text-theme-orange hover:opacity-100",

@@ -102,7 +102,7 @@
 
   body,
   .p {
-    @apply text-base leading-[25px] font-medium;
+    @apply text-base leading-[25px] font-normal;
   }
   .subtitle {
     @apply font-bold leading-[25px] text-sm tracking-[0.929px] text-theme-orange uppercase;
