@@ -5,3 +5,5 @@ export { default as Twitter } from "./twitter.svg";
 export { default as Instagram } from "./instagram.svg";
 export { default as Hamburger } from "./hamburger.svg";
 export { default as BackgroundBanner } from "./svg_banner.svg";
+export { default as ChevronRight } from "./chevron_right.svg";
+export { default as Shadow } from "./shadow.svg";
